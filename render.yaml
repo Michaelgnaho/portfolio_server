@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: portfolio-server
+    env: node
+    buildCommand: yarn install
+    startCommand: node server.js
+    envVars:
+      - key: EMAIL_USER
+        value: gnahomichael@gmail.com
+      - key: EMAIL_PASS
+        value: flex anwt dgtc jddz
